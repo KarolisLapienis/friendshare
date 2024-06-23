@@ -12,7 +12,7 @@ export default function TopNav() {
       <div>Gallery</div>
       <div>
         <SignedOut>
-          <SignInButton></SignInButton>
+          <SignInButton mode="modal"></SignInButton>
         </SignedOut>
         <SignedIn>
           <UserButton></UserButton>
