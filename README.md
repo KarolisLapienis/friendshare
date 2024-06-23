@@ -9,8 +9,8 @@
 - [x] Attach database to UI
 - [x] Add authentication (w/ clerk)
 - [x] Add image upload
-- [] "taint" (server-only)
-- [] Use Next/Image component
+- [x] "taint" (server-only)
+- [x] Use Next/Image component
 - [] Error management (w/ sentry)
 - [] Routing/image page (parallel route)
 - [] Delete button (w/ Server Actions)
@@ -19,4 +19,5 @@
 - [] Add search
 - [] Add sorting
 - [] Add filtering
-- [] Add pagination
+- [] Add infinite scroll
+- [] create my own Image component that makes smaller resolution images and replace Next/Image
