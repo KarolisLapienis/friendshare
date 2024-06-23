@@ -2,7 +2,6 @@
 
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
-import { use } from "react";
 import { UploadButton } from "~/utils/uploadthing";
 
 export default function TopNav() {
