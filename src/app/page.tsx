@@ -18,7 +18,7 @@ async function Images() {
             height={192}
             alt="{image.name}"
           />
-          <div>{image.name}</div>
+          <p>{image.name}</p>
         </div>
       ))}
     </div>
