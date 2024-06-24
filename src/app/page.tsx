@@ -12,7 +12,7 @@ async function Images() {
       {images.map((image) => (
         <div
           key={image.id}
-          className="flex h-auto w-48 flex-col flex-wrap  duration-300 ease-in-out hover:scale-105"
+          className="flex flex-col  duration-300 ease-in-out hover:scale-105"
         >
           <Image
             src={image.url}
@@ -21,7 +21,7 @@ async function Images() {
             height={192}
             alt="{image.name}"
           />
-          <p className="word-break">{image.name}</p>
+          <div className="w-48 text-wrap break-normal">{image.name}</div>
         </div>
       ))}
     </div>
