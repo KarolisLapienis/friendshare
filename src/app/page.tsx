@@ -12,7 +12,7 @@ async function Images() {
       {images.map((image) => (
         <div
           key={image.id}
-          className="h-auto w-48  duration-300 ease-in-out hover:scale-105 hover:transform"
+          className="flex h-auto w-48 flex-col flex-wrap  duration-300 ease-in-out hover:scale-105"
         >
           <Image
             src={image.url}
