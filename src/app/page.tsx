@@ -10,7 +10,10 @@ async function Images() {
   return (
     <div className=" flex flex-wrap justify-center gap-4">
       {images.map((image) => (
-        <div key={image.id} className="h-auto w-48">
+        <div
+          key={image.id}
+          className="h-auto w-48  duration-300 ease-in-out hover:scale-105 hover:transform"
+        >
           <Image
             src={image.url}
             style={{ objectFit: "contain" }}
