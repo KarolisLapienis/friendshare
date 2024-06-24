@@ -21,7 +21,7 @@ async function Images() {
             height={192}
             alt="{image.name}"
           />
-          <p>{image.name}</p>
+          <p className="w-48 text-wrap">{image.name}</p>
         </div>
       ))}
     </div>
