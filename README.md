@@ -1,4 +1,4 @@
-# T£ Gallery
+# Friendshare
 
 ## TODO
 
