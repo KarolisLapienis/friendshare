@@ -14,7 +14,7 @@ async function Images() {
           key={image.id}
           className="flex flex-col  duration-300 ease-in-out hover:scale-105"
         >
-          <Link key={image.id} href={`/photo/${image.id}`}>
+          <Link key={image.id} href={`/image/${image.id}`}>
             <Image
               src={image.url}
               style={{ objectFit: "contain" }}
