@@ -11,8 +11,8 @@ export default async function Image({
 
   const image = await getImage(idAsNumber);
   return (
-    <Modal>
-      <img src={image.url} alt={image.name} className="w-auto" />
+    <Modal title={image.name}>
+      <img src={image.url} alt={image.name} className="w-full" />
     </Modal>
   );
 }
