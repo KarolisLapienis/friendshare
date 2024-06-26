@@ -35,9 +35,7 @@
     --radius: 0.5rem;
   }
 
-  /* .dark changed to :root */
-  /* overrides default light theme */
-  :root {
+  .dark {
     --background: 0 0% 0%;
     --foreground: 0 0% 98%;
 
