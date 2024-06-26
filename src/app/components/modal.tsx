@@ -5,7 +5,6 @@ import {
   DialogOverlay,
   DialogContent,
   DialogHeader,
-  DialogDescription,
   DialogTitle,
 } from "~/app/components/ui/dialog";
 

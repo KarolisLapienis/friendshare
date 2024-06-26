@@ -23,7 +23,6 @@ async function Images() {
               alt="{image.name}"
             />
           </Link>
-          <div className="w-48 text-wrap break-normal">{image.name}</div>
         </div>
       ))}
     </div>
