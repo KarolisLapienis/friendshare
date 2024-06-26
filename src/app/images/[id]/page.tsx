@@ -1,6 +1,6 @@
 import { getImage } from "~/server/queries";
 
-export default async function Image({
+export default async function ImageModal({
   params: { id: imageId },
 }: {
   params: { id: string };
