@@ -1,7 +1,7 @@
 import { SignedIn, SignedOut } from "@clerk/nextjs";
 import Image from "next/image";
+import Link from "next/link";
 import { getUserImages } from "~/server/queries";
-
 export const dynamic = "force-dynamic";
 
 async function Images() {
@@ -14,13 +14,15 @@ async function Images() {
           key={image.id}
           className="flex flex-col  duration-300 ease-in-out hover:scale-105"
         >
-          <Image
-            src={image.url}
-            style={{ objectFit: "contain" }}
-            width={192}
-            height={192}
-            alt="{image.name}"
-          />
+          <Link key={image.id} href={`/photo/${image.id}`}>
+            <Image
+              src={image.url}
+              style={{ objectFit: "contain" }}
+              width={192}
+              height={192}
+              alt="{image.name}"
+            />
+          </Link>
           <div className="w-48 text-wrap break-normal">{image.name}</div>
         </div>
       ))}
